@@ -50,6 +50,7 @@ from .cdkitchen import CdKitchen
 from .chefkoch import Chefkoch
 from .chefnini import Chefnini
 from .chefsavvy import ChefSavvy
+from .citygross import CityGross
 from .closetcooking import ClosetCooking
 from .comidinhasdochef import ComidinhasDoChef
 from .cookeatshare import CookEatShare
@@ -358,6 +359,7 @@ SCRAPERS = {
     ChefSavvy.host(): ChefSavvy,
     Chefkoch.host(): Chefkoch,
     Chefnini.host(): Chefnini,
+    CityGross.host(): CityGross,
     ClosetCooking.host(): ClosetCooking,
     ComidinhasDoChef.host(): ComidinhasDoChef,
     CookEatShare.host(): CookEatShare,
